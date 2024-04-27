@@ -33,11 +33,9 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   colorDisplay.addEventListener('click', function(event) {
-    // Get the mouse coordinates relative to the document
     const mouseX = event.clientX;
     const mouseY = event.clientY - 25;
 
-    // Set the position of the color picker at the mouse coordinates
     colorPicker.style.left = `${mouseX}px`;
     colorPicker.style.top = `${mouseY}px`;
 
