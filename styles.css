@@ -32,7 +32,8 @@ h1 {
 
 
 #color-picker {
-  display: none;
+  position: absolute; 
+  z-index: -1;
 }
 
 #opacity-slider {
